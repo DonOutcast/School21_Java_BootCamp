@@ -1,8 +1,12 @@
 import java.util.Scanner;
-package ex04;:wq
+
 public class Program {
     public static void main(String[] argv) {
         Scanner scanner = new Scanner(System.in);
+        if (!scanner.hasNext()) {
+            System.err.println("Illegal Argument");
+            System.exit(-1);
+        }
         String inputData = scanner.nextLine();
         scanner.close();
         int[] charCount = new int[65536];

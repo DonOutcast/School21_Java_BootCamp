@@ -1,21 +1,21 @@
-package ex02;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        if (scanner.hasNextInt()) {
-            int number = 0;
-            int count = 0;
-            while(number != 42) {
-                number = scanner.nextInt();
-                if(is_simple_number(sum_id_integer(number))) {
-                    count++;
-                }
+        int number = 0;
+        int count = 0;
+        while(number != 42 ) {
+            if (!(scanner.hasNext() && scanner.hasNextInt())) {
+                scanner.close();
+                System.exit(-1);
             }
-            System.out.println("Count of coffee-request - " + count);
+            number = scanner.nextInt();
+            if(is_simple_number(sum_id_integer(number))) {
+                count++;
+            }
         }
-
+        System.out.println("Count of coffee-request - " + count);
         scanner.close();
     }
     public static int sum_id_integer(int number) {

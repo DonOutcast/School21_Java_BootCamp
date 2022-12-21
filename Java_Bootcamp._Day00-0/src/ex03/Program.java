@@ -1,4 +1,3 @@
-package ex03;
 import java.util.Scanner;
 
 public class Program {
@@ -8,11 +7,15 @@ public class Program {
         long data = 0;
         int data_order = 0;
         while (!(week = scanner.nextLine()).equals("42") && ++data_order <= 18) {
-            if (!week.equals("Week " + data_order))
-            {
+            if (!week.equals("Week " + data_order)) {
                 System.err.println("IllegalArgument");
                 System.exit(-1);
             }
+            if (!scanner.hasNext()) {
+                System.err.println("IllegalArgument");
+                System.exit(-1);
+            }
+
             int grade1 = scanner.nextInt();
             check_numbers(grade1);
             for (int i = 0; i < 4; i++)
