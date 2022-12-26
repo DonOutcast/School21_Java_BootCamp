@@ -1,0 +1,8 @@
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepositoryJdbcImpl.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/repositories/JdbcDataSource.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/models/User.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/models/Message.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/repositories/MessagesRepository.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/models/Chatroom.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/app/Program.java
+/opt/goinfre/amaribel/all/Piscine/Day05/ex03/Chat/src/main/java/edu/school21/chat/exceptions/NotSavedSubEntityException.java
