@@ -6,6 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day05-0/src/ex01/Chat/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day05-0/src/ex02/Chat/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day05-0/src/ex03/Chat/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day06-0/src/ex00/Tests/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day06-0/src/ex01/Tests/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day06-0/src/ex02/Tests/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Bootcamp._Day06-0/src/ex03/Tests/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
